@@ -1,11 +1,16 @@
 # nutriscore
 compute nutriscore (2022 update) for main algorithm (not beverages nor oil)
 
+[demo](https://pi3141.github.io/nutriscore.html)
+
 source nutriscore.js in your html file :
- <script src="nutriscore.js"></script> 
+ `<script src="nutriscore.js"></script>`
  
- and call compute_FNS function 
+ and call compute_FNS function :
+ ```
  compute_FNS(energy, sugar, saturated_fats, salt, proteins, fibers, fruits_vegetables_percentage, red_meat, cheese)
+ ```
+ 
  The parameters are :
  * energy in kJ / 100g
  * sugar in g / 100g
@@ -18,6 +23,7 @@ source nutriscore.js in your html file :
  * cheese boolean
 
 The function return a JS object containing class, score, AScore, CScore and the contribution of each element to the nutriscore :
+```
 {
         FNS: {
             class,
@@ -56,3 +62,4 @@ The function return a JS object containing class, score, AScore, CScore and the 
         red_meat: ,
         cheese: 
     }
+```
