@@ -1,7 +1,7 @@
 # nutriscore
 compute nutriscore (2022 update) for main algorithm (not beverages nor oil)
 
-[example : web page to compute nutriscore from recipe](https://pi3141.github.io/nutriscore.html)
+## [example : web page to compute nutriscore from recipe](https://pi3141.github.io/nutriscore.html)
 
 ## set up
 source nutriscore.js in your html file :
