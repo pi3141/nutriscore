@@ -1,5 +1,6 @@
-// FONCTION DE CALCUL DU NUTRISCORE 2022 PAR P.GAZANIOL
-//https://sante.gouv.fr/IMG/pdf/maj__rapport_nutri-score_rapport__algorithme_2022_.pdf#page=130
+// FONCTION DE CALCUL DU NUTRISCORE 2023 PAR P.GAZANIOL
+//v2023 https://www.santepubliquefrance.fr/content/download/150263/file/FAQ-updatedAlgo-EN_20231222.pdf#page=24
+//or https://sante.gouv.fr/IMG/pdf/maj__rapport_nutri-score_rapport__algorithme_2022_.pdf#page=130
 
 function compute_FNS(energy = 0, sugar = 0, saturated_fats = 0, salt = 0, proteins = 0, fibers = 0, fruits_vegetables_percentage = 0, red_meat = false, cheese = false) {
     var FNS_obj = {
